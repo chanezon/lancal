@@ -1,0 +1,14 @@
+{
+  "name": "lancal",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": ">= 2.2.1 < 3.0.0",
+    "mongoose": ">= 1.2.0 < 2.0.0",
+    "cloudfoundry": ">= 0.1.0 < 1.0.0",
+    "util":"",
+    "restler":"",
+    "async":"",
+    "mongodb":"",
+    "ejs":""
+  }
+}

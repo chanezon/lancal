@@ -1,0 +1,9 @@
+{
+  "eventcal": {
+    "hostname": "localhost",
+    "port": 27017,
+    "username": "",
+    "password": "",
+    "db": "eventcal"
+  }
+}

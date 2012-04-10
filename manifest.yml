@@ -1,0 +1,16 @@
+--- 
+applications: 
+  .: 
+    name: lancal
+    url: ${name}.${target-base}
+    framework: 
+      name: node
+      info: 
+        mem: 64M
+        description: Node.js Application
+        exec: 
+    mem: 64M
+    instances: 1
+    services: 
+      eventcal: 
+        type: mongodb
