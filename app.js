@@ -3,8 +3,8 @@ var sys = require('util'),
 	rest = require('restler'),
 	async = require('async'),
 	events = require("events");
-var ical = require('./node-ical/ical');
-var cf       = require("cloudfoundry");
+var ical = require('./mynode_modules/node-ical/ical');
+var cf       = require("./mynode_modules/cloudfoundry");
 // MongoDB
 var mongoose = require("mongoose"),
     Schema   = mongoose.Schema;
