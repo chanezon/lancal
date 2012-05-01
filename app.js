@@ -1,10 +1,9 @@
-require.paths.unshift('./node_modules');
 var sys = require('util'),
 	rest = require('restler'),
 	async = require('async'),
 	events = require("events");
-var ical = require('./mynode_modules/node-ical/ical');
-var cf       = require("./mynode_modules/cloudfoundry");
+var ical = require('./my_node_modules/node-ical/ical');
+var cf       = require("./my_node_modules/cloudfoundry");
 // MongoDB
 var mongoose = require("mongoose"),
     Schema   = mongoose.Schema;
